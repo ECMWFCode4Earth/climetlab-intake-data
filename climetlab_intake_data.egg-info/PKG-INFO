@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: climetlab-intake-data
+Version: 0.1.0
+Summary: A dataset plugin for climetlab for the dataset intake-data/noaa-ersst.
+Home-page: https://github.com/kiryteo/climetlab-intake-data
+Author: Ashwin Samudre
+Author-email: capnoi8@gmail.com
+License: Apache License Version 2.0
+Description: ## intake-data
+        
+        A dataset plugin for climetlab for the dataset intake-data/noaa-ersst.
+        
+        
+        Features
+        --------
+        
+        In this README is a description of how to get the intake-data.
+        
+        ## Datasets description
+        
+        There are two datasets: 
+        
+        ### 1 : `noaa_ersst`
+        
+        
+        ### 2
+        TODO
+        
+        
+        ## Using climetlab to access the data (supports grib, netcdf and zarr)
+        
+        See the demo notebooks here (https://github.com/ecmwf-lab/climetlab_intake_data/notebooks
+        
+        https://github.com/ecmwf-lab/climetlab_intake_data/notebooks/demo_noaa_ersst.ipynb
+        [nbviewer] (https://nbviewer.jupyter.org/github/climetlab_intake_data/blob/main/notebooks/demo_noaa_ersst.ipynb) 
+        [colab] (https://colab.research.google.com/github/climetlab_intake_data/blob/main/notebooks/demo_noaa_ersst.ipynb) 
+        
+        The climetlab python package allows easy access to the data with a few lines of code such as:
+        ```
+        
+        !pip install climetlab climetlab_intake_data
+        import climetlab as cml
+        ds = cml.load_dataset(""intake-data-noaa-ersst", date='20201231',)
+        ds.to_xarray()
+        ```
+        
+Keywords: meteorology
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

@@ -1,0 +1,11 @@
+README.md
+setup.py
+climetlab_intake_data/__init__.py
+climetlab_intake_data/noaa_ersst.py
+climetlab_intake_data.egg-info/PKG-INFO
+climetlab_intake_data.egg-info/SOURCES.txt
+climetlab_intake_data.egg-info/dependency_links.txt
+climetlab_intake_data.egg-info/entry_points.txt
+climetlab_intake_data.egg-info/requires.txt
+climetlab_intake_data.egg-info/top_level.txt
+climetlab_intake_data.egg-info/zip-safe
